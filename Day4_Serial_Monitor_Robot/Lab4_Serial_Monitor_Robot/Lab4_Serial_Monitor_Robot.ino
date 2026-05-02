@@ -1,7 +1,5 @@
-#include <Arduino.h>
-
 /*
-  Lab Experiment: Serial Monitor Robot Control
+  Lab 4: Serial Monitor Robot Control
   Written by: Mahmoud Yassin
 
   Description:
