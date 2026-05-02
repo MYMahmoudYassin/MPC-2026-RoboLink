@@ -1,8 +1,12 @@
-# Day 3 - Robot Chassis and Motors
+# Day 3 - Sensors
+
+This folder is for the Day 3 sensor activities.
 
 Topics:
-- Robot chassis assembly
-- DC motor control
-- L9110 motor driver wiring
-- Basic robot movement
+- Sensor concepts
+- Reading sensor values
+- Using sensor input in Arduino sketches
+- Connecting sensor readings to robot behavior
 
+Current files:
+- `README.md`
