@@ -13,6 +13,8 @@ This day focuses on two common robot sensors:
 - An IR obstacle sensor for detecting nearby objects.
 - An ultrasonic distance sensor for measuring distance.
 
+The folder now includes a lesson PDF plus two hands-on lab activities.
+
 ## Learning Goals
 
 By the end of Day 3, students should be able to:
@@ -26,6 +28,9 @@ By the end of Day 3, students should be able to:
 - Describe how sensors help robots respond to their surroundings.
 
 ## Files
+
+- `Lessons/Sensors.pdf`  
+  Main lesson slides/notes for Day 3 sensor concepts.
 
 - `Labs/Lab3_IR_Sensor.pdf`  
   Student lab guide for the IR sensor with buzzer activity.
@@ -41,15 +46,17 @@ By the end of Day 3, students should be able to:
 
 ## Suggested Order
 
-1. Open `Labs/Lab3_IR_Sensor.pdf`.
-2. Build the IR sensor with buzzer circuit.
-3. Open and upload `Labs/IR_with_Buzzer/IR_with_Buzzer.ino`.
-4. Use the Serial Monitor to test the IR sensor.
-5. Complete the IR sensor observations and reflection questions.
-6. Open `Labs/Lab3_Ultrasonic Sensor.pdf`.
-7. Build the ultrasonic sensor circuit.
-8. Open and upload `Labs/Ultrasonic/Ultrasonic.ino`.
-9. Use the Serial Monitor to observe distance readings.
+1. Open `Lessons/Sensors.pdf`.
+2. Review what sensors do and how robots use sensor input.
+3. Open `Labs/Lab3_IR_Sensor.pdf`.
+4. Build the IR sensor with buzzer circuit.
+5. Open and upload `Labs/IR_with_Buzzer/IR_with_Buzzer.ino`.
+6. Use the Serial Monitor to test the IR sensor.
+7. Complete the IR sensor observations and reflection questions.
+8. Open `Labs/Lab3_Ultrasonic Sensor.pdf`.
+9. Build the ultrasonic sensor circuit.
+10. Open and upload `Labs/Ultrasonic/Ultrasonic.ino`.
+11. Use the Serial Monitor to observe distance readings.
 
 ## Lab 3A: IR Sensor with Buzzer
 
