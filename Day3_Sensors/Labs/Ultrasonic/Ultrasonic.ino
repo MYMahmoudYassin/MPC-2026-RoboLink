@@ -13,7 +13,7 @@ void loop() {
   //Send out the trigger signal
   digitalWrite(2, HIGH);
 
-  //Wait for 10 microseconds
+  //Wait for 50 microseconds
   delayMicroseconds(50);
 
   //Lower the trigger pin
