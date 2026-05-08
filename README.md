@@ -90,3 +90,7 @@ Each folder is organized by course day. Open the README inside each day folder f
 4. Open the lesson or lab PDF.
 5. Open the matching Arduino `.ino` file in the Arduino IDE.
 6. Ask your instructor to check wiring before connecting power.
+
+## Survey Link
+The end-of-course survey link is now open! Please take few minutes to complete the feedback form.
+[Click here to complete the form](https://forms.gle/tiZQJAAHRRJ7FY2aA)
