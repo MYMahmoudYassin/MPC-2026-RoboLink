@@ -1,19 +1,6 @@
 # Day 3: Sensors
 
-Course: RoboLink: Build and Drive Your Smartphone-Controlled Robot  
-Program: Mini Course Program 2026, Carleton University  
-Instructors: Dr. Mahmoud Sayed and Mahmoud Yassin
-
-## Overview
-
-Day 3 introduces sensors. Students learn how an Arduino can read information from the real world and use that information to control outputs or make robot decisions.
-
-This day focuses on two common robot sensors:
-
-- An IR obstacle sensor for detecting nearby objects.
-- An ultrasonic distance sensor for measuring distance.
-
-The folder now includes a lesson PDF plus two hands-on lab activities.
+Day 3 introduces sensors and shows how a robot can read information from the real world. Students use an IR obstacle sensor for object detection and an ultrasonic sensor for distance measurement.
 
 ## Learning Goals
 
@@ -27,76 +14,31 @@ By the end of Day 3, students should be able to:
 - Troubleshoot sensor wiring, power, ground, and pin problems.
 - Describe how sensors help robots respond to their surroundings.
 
-## Files
+## Contents
 
-- `Lessons/Sensors.pdf`  
-  Main lesson slides/notes for Day 3 sensor concepts.
+- [`Lessons/Sensors.pdf`](Lessons/Sensors.pdf)
+  Main Day 3 lesson for sensor concepts and robot sensing.
 
-- `Labs/Lab3_IR_Sensor.pdf`  
-  Student lab guide for the IR sensor with buzzer activity.
+- [`Labs/Lab3_IR_Sensor.pdf`](Labs/Lab3_IR_Sensor.pdf)
+  Student lab guide for the IR obstacle sensor activity.
 
-- `Labs/IR_with_Buzzer/IR_with_Buzzer.ino`  
-  Arduino code for the IR sensor, LED, and buzzer circuit.
+- [`Labs/IR_with_Buzzer/IR_with_Buzzer.ino`](Labs/IR_with_Buzzer/IR_with_Buzzer.ino)
+  Arduino sketch for the IR sensor, LED, and buzzer circuit.
 
-- `Labs/Lab3_Ultrasonic Sensor.pdf`  
-  Student lab guide for the ultrasonic sensor activity.
+- [`Labs/Lab3_Ultrasonic Sensor.pdf`](Labs/Lab3_Ultrasonic%20Sensor.pdf)
+  Student lab guide for the ultrasonic distance sensor activity.
 
-- `Labs/Ultrasonic/Ultrasonic.ino`  
-  Arduino code for the ultrasonic sensor activity.
+- [`Labs/Ultrasonic/Ultrasonic.ino`](Labs/Ultrasonic/Ultrasonic.ino)
+  Arduino sketch for reading distance from the ultrasonic sensor.
 
 ## Suggested Order
 
-1. Open `Lessons/Sensors.pdf`.
-2. Review what sensors do and how robots use sensor input.
-3. Open `Labs/Lab3_IR_Sensor.pdf`.
-4. Build the IR sensor with buzzer circuit.
-5. Open and upload `Labs/IR_with_Buzzer/IR_with_Buzzer.ino`.
-6. Use the Serial Monitor to test the IR sensor.
-7. Complete the IR sensor observations and reflection questions.
-8. Open `Labs/Lab3_Ultrasonic Sensor.pdf`.
-9. Build the ultrasonic sensor circuit.
-10. Open and upload `Labs/Ultrasonic/Ultrasonic.ino`.
-11. Use the Serial Monitor to observe distance readings.
-
-## Lab 3A: IR Sensor with Buzzer
-
-In this activity, an IR obstacle sensor detects whether an object is nearby. When the sensor detects an object, the Arduino turns on an LED and makes a buzzer sound.
-
-Main Arduino ideas:
-
-- `digitalRead()`
-- `if/else`
-- `tone()`
-- `noTone()`
-- Serial Monitor testing
-
-## Lab 3B: Ultrasonic Sensor
-
-In this activity, an ultrasonic sensor sends a sound pulse and measures how long it takes for the echo to return. The Arduino uses that time to estimate distance.
-
-Main Arduino ideas:
-
-- Trigger and echo pins
-- `delayMicroseconds()`
-- `pulseIn()`
-- Distance calculation
-- Serial Monitor output
-
-## Key Vocabulary
-
-- Sensor
-- Input
-- Output
-- IR sensor
-- Ultrasonic sensor
-- Trigger
-- Echo
-- Distance
-- Detection
-- Serial Monitor
-- `digitalRead()`
-- `pulseIn()`
-- `if/else`
+1. Open [`Lessons/Sensors.pdf`](Lessons/Sensors.pdf).
+2. Build and test the IR sensor circuit using [`Labs/Lab3_IR_Sensor.pdf`](Labs/Lab3_IR_Sensor.pdf).
+3. Upload [`Labs/IR_with_Buzzer/IR_with_Buzzer.ino`](Labs/IR_with_Buzzer/IR_with_Buzzer.ino).
+4. Build and test the ultrasonic sensor circuit using [`Labs/Lab3_Ultrasonic Sensor.pdf`](Labs/Lab3_Ultrasonic%20Sensor.pdf).
+5. Upload [`Labs/Ultrasonic/Ultrasonic.ino`](Labs/Ultrasonic/Ultrasonic.ino).
+6. Continue to [`../Day4_Serial_Monitor_Robot/`](../Day4_Serial_Monitor_Robot/) for motor control.
 
 ## Safety Reminders
 
@@ -104,9 +46,3 @@ Main Arduino ideas:
 - Connect every module GND to Arduino GND.
 - Do not connect 5V directly to GND.
 - Check each sensor pin label before wiring.
-- Disconnect the USB cable before changing a circuit.
-- Keep jumper wires neat so mistakes are easier to find.
-
-## Next Step
-
-After Day 3, continue to `Day4_Serial_Monitor_Robot/` to use Arduino input and output ideas for robot control.

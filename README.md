@@ -1,75 +1,53 @@
-<img width="211" height="46" alt="program logo" src="https://github.com/user-attachments/assets/7af10aa5-d64e-46dd-9b3f-78521599634c" />
+<div align="center">
+  <img width="211" height="46" alt="Mini Course Program logo" src="https://github.com/user-attachments/assets/7af10aa5-d64e-46dd-9b3f-78521599634c" />
 
-# Mini Course Program 2026: RoboLink
+  <h1>Mini Course Program 2026: RoboLink</h1>
 
-Course: RoboLink: Build and Drive Your Smartphone-Controlled Robot  
-Program: Mini Course Program 2026, Carleton University  
-Instructors: Dr. Mahmoud Sayed and Mahmoud Yassin
+  <p><strong>Build and Drive Your Smartphone-Controlled Robot</strong></p>
+  <p>Carleton University Mini Course Program</p>
+  <p>Instructors: Dr. Mahmoud Sayed and Mahmoud Yassin</p>
 
-## Overview
+  <p>
+    <a href="https://carleton.ca/mcp/">Carleton MCP</a> |
+    <a href="https://minic.ca/">Mini-Courses</a>
+  </p>
 
-This repository contains the student materials for the RoboLink mini course. The course introduces basic electronics, Arduino programming, sensors, Serial Monitor control, and smartphone-controlled robot movement.
+  <img src="assets/Robot_Test.gif" alt="RoboLink robot test drive" width="640" />
+</div>
 
-Each folder is organized by course day. Open the README inside each day folder for the suggested order and file descriptions.
+## Course Folder Guide
 
-## Repository Structure
+This repository is the student-facing course pack for RoboLink. The course moves from basic electronics to a working robot that can be driven from an Android phone. Each day folder has its own README with the day introduction, learning goals, exact contents, and suggested order.
 
-- `Day0_Orientation/` - Course orientation and introduction.
-- `Day1_Getting_Started/` - Basic electronics and RoboLink project setup.
-- `Day2_Arduino_Basics/` - Arduino IDE, Blink, push button input, LEDs, and buzzer.
-- `Day3_Sensors/` - IR and ultrasonic sensor activities.
-- `Day4_Serial_Monitor_Robot/` - Robot control using Serial Monitor commands.
-- `Day5_RoboLink_Smartphone_Control/` - Wireless smartphone robot control.
+| Folder | Students Work On | Main Contents |
+| --- | --- | --- |
+| [`Day0_Orientation/`](Day0_Orientation/) | Course welcome, schedule, group work, and the project roadmap. | [`Orientation.pdf`](Day0_Orientation/Orientation.pdf) |
+| [`Day1_Getting_Started/`](Day1_Getting_Started/) | Circuits, voltage, current, LEDs, switches, and safe wiring habits. | [`Day1_RoboLink_Basic_Electronics.pdf`](Day1_Getting_Started/Day1_RoboLink_Basic_Electronics.pdf), [`Labs/Analog Discovery 2.pdf`](Day1_Getting_Started/Labs/Analog%20Discovery%202.pdf) |
+| [`Day2_Arduino_Basics/`](Day2_Arduino_Basics/) | Arduino IDE setup, Blink, button input, LEDs, buzzer, and first sketches. | [`Lessons/Programming - Intro.pdf`](Day2_Arduino_Basics/Lessons/Programming%20-%20Intro.pdf), [`Day2_Arduino_World.pdf`](Day2_Arduino_Basics/Day2_Arduino_World.pdf), Arduino sketches |
+| [`Day3_Sensors/`](Day3_Sensors/) | IR object detection, ultrasonic distance sensing, and Serial Monitor readings. | [`Lessons/Sensors.pdf`](Day3_Sensors/Lessons/Sensors.pdf), sensor lab PDFs, Arduino sketches |
+| [`Day4_Serial_Monitor_Robot/`](Day4_Serial_Monitor_Robot/) | DC motors, L9110 driver control, and Serial Monitor robot commands. | [`Lessons/DC Motors.ppsx`](Day4_Serial_Monitor_Robot/Lessons/DC%20Motors.ppsx), [`Labs/Lab4_Serial_Monitor_Robot.pdf`](Day4_Serial_Monitor_Robot/Labs/Lab4_Serial_Monitor_Robot.pdf), Arduino sketches |
+| [`Day5_RoboLink_Smartphone_Control/`](Day5_RoboLink_Smartphone_Control/) | BLE communication, Android app setup, wireless commands, and final robot driving. | Wireless lesson PDF, Lab 5 PDFs, [`Robotak Controller.apk`](Day5_RoboLink_Smartphone_Control/Labs/RoboLink%20APP/Robotak%20Controller.apk), Arduino sketches |
 
-## Main Student Materials
+## Course Snapshot
 
-### Day 0: Orientation
+RoboLink is a five-day robotics mini course for students who are starting with electronics, embedded programming, sensors, motors, and wireless control. The orientation material gives the classroom context, while the folders above are the working materials students use during the course.
 
-- `Day0_Orientation/Orientation.pdf`
-- `Day0_Orientation/README.md`
+By the end of the course, students should be able to:
 
-### Day 1: Getting Started
-
-- `Day1_Getting_Started/Day1_RoboLink_Basic_Electronics.pdf`
-- `Day1_Getting_Started/Labs/Analog Discovery 2.pdf`
-- `Day1_Getting_Started/README.md`
-
-### Day 2: Arduino Basics
-
-- `Day2_Arduino_Basics/Lessons/Programming - Intro.pdf`
-- `Day2_Arduino_Basics/Day2_Arduino_World.pdf`
-- `Day2_Arduino_Basics/Button_controlled_LED_blinking_speed/Button_controlled_LED_blinking_speed.ino`
-- `Day2_Arduino_Basics/Control_the_Blinking_of_an_LED_and_Buzzer/Control_the_Blinking_of_an_LED_and_Buzzer.ino`
-- `Day2_Arduino_Basics/README.md`
-
-### Day 3: Sensors
-
-- `Day3_Sensors/Lessons/Sensors.pdf`
-- `Day3_Sensors/Labs/Lab3_IR_Sensor.pdf`
-- `Day3_Sensors/Labs/IR_with_Buzzer/IR_with_Buzzer.ino`
-- `Day3_Sensors/Labs/Lab3_Ultrasonic Sensor.pdf`
-- `Day3_Sensors/Labs/Ultrasonic/Ultrasonic.ino`
-- `Day3_Sensors/README.md`
-
-### Day 4: Serial Monitor Robot
-
-- `Day4_Serial_Monitor_Robot/Labs/Lab4_Serial_Monitor_Robot.pdf`
-- `Day4_Serial_Monitor_Robot/Labs/Lab4_Serial_Monitor_Robot/Lab4_Serial_Monitor_Robot.ino`
-- `Day4_Serial_Monitor_Robot/README.md`
-
-### Day 5: Smartphone Control
-
-- `Day5_RoboLink_Smartphone_Control/Labs/Lab5_Part1_Wireless_World.pdf`
-- `Day5_RoboLink_Smartphone_Control/Labs/Lab5_Part1_Wireless_World/Lab5_Part1_Wireless_World.ino`
-- `Day5_RoboLink_Smartphone_Control/Labs/Lab5_Part2_RoboLink.pdf`
-- `Day5_RoboLink_Smartphone_Control/Labs/Lab5_Part2_RoboLink/Lab5_Part2_RoboLink.ino`
-- `Day5_RoboLink_Smartphone_Control/README.md`
+- Build and test simple breadboard circuits safely.
+- Use the Arduino IDE with an Arduino Nano ATmega168.
+- Read and modify Arduino sketches.
+- Use buttons, IR sensors, ultrasonic sensors, LEDs, buzzers, motors, and the Serial Monitor.
+- Control a two-motor robot with an L9110 motor driver.
+- Send commands from an Android phone to the robot using a BLE module.
+- Troubleshoot wiring, power, code, and communication problems.
 
 ## Software
 
 - Arduino IDE
 - Arduino AVR board support for Arduino Nano
 - Android phone for the RoboLink smartphone control app on Day 5
+- PDF reader
 
 ## Main Hardware
 
@@ -86,13 +64,14 @@ Each folder is organized by course day. Open the README inside each day folder f
 
 ## Suggested Use
 
-1. Start with `Day0_Orientation/`.
+1. Start with [`Day0_Orientation/`](Day0_Orientation/).
 2. Work through each day folder in order.
-3. Open the day README first.
-4. Open the lesson or lab PDF.
-5. Open the matching Arduino `.ino` file in the Arduino IDE.
-6. Ask your instructor to check wiring before connecting power.
+3. Open the day README before opening the lesson or lab files.
+4. Open the matching Arduino `.ino` file in the Arduino IDE when a lab asks for code.
+5. Ask your instructor to check wiring before connecting power.
 
-## Survey Link
-The end-of-course survey link is now open! Please take few minutes to complete the feedback form.
-[Click here to complete the form](https://forms.gle/tiZQJAAHRRJ7FY2aA)
+## Survey
+
+The end-of-course survey link is open. Please take a few minutes to complete the feedback form:
+
+[Complete the RoboLink survey](https://forms.gle/tiZQJAAHRRJ7FY2aA)
