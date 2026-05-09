@@ -19,14 +19,14 @@
 
 This repository is the student-facing course pack for RoboLink. The course moves from basic electronics to a working robot that can be driven from an Android phone. Each day folder has its own README with the day introduction, learning goals, exact contents, and suggested order.
 
-| Folder | Students Work On | Main Contents |
-| --- | --- | --- |
-| [`Day0_Orientation/`](Day0_Orientation/) | Course welcome, schedule, group work, and the project roadmap. | [`Orientation.pdf`](Day0_Orientation/Orientation.pdf) |
-| [`Day1_Getting_Started/`](Day1_Getting_Started/) | Circuits, voltage, current, LEDs, switches, and safe wiring habits. | [`Day1_RoboLink_Basic_Electronics.pdf`](Day1_Getting_Started/Day1_RoboLink_Basic_Electronics.pdf), [`Labs/Analog Discovery 2.pdf`](Day1_Getting_Started/Labs/Analog%20Discovery%202.pdf) |
-| [`Day2_Arduino_Basics/`](Day2_Arduino_Basics/) | Arduino IDE setup, Blink, button input, LEDs, buzzer, and first sketches. | [`Lessons/Programming - Intro.pdf`](Day2_Arduino_Basics/Lessons/Programming%20-%20Intro.pdf), [`Day2_Arduino_World.pdf`](Day2_Arduino_Basics/Day2_Arduino_World.pdf), Arduino sketches |
-| [`Day3_Sensors/`](Day3_Sensors/) | IR object detection, ultrasonic distance sensing, and Serial Monitor readings. | [`Lessons/Sensors.pdf`](Day3_Sensors/Lessons/Sensors.pdf), sensor lab PDFs, Arduino sketches |
-| [`Day4_Serial_Monitor_Robot/`](Day4_Serial_Monitor_Robot/) | DC motors, L9110 driver control, and Serial Monitor robot commands. | [`Lessons/DC Motors.ppsx`](Day4_Serial_Monitor_Robot/Lessons/DC%20Motors.ppsx), [`Labs/Lab4_Serial_Monitor_Robot.pdf`](Day4_Serial_Monitor_Robot/Labs/Lab4_Serial_Monitor_Robot.pdf), Arduino sketches |
-| [`Day5_RoboLink_Smartphone_Control/`](Day5_RoboLink_Smartphone_Control/) | BLE communication, Android app setup, wireless commands, and final robot driving. | Wireless lesson PDF, Lab 5 PDFs, [`Robotak Controller.apk`](Day5_RoboLink_Smartphone_Control/Labs/RoboLink%20APP/Robotak%20Controller.apk), Arduino sketches |
+| Folder | Students Work On |
+| --- | --- |
+| [`Day0_Orientation/`](Day0_Orientation/) | Course welcome, schedule, group work, and the project roadmap. |
+| [`Day1_Getting_Started/`](Day1_Getting_Started/) | Circuits, voltage, current, LEDs, switches, and safe wiring habits. |
+| [`Day2_Arduino_Basics/`](Day2_Arduino_Basics/) | Arduino IDE setup, Blink, button input, LEDs, buzzer, and first sketches. |
+| [`Day3_Sensors/`](Day3_Sensors/) | IR object detection, ultrasonic distance sensing, and Serial Monitor readings. |
+| [`Day4_Serial_Monitor_Robot/`](Day4_Serial_Monitor_Robot/) | DC motors, L9110 driver control, and Serial Monitor robot commands. |
+| [`Day5_RoboLink_Smartphone_Control/`](Day5_RoboLink_Smartphone_Control/) | BLE communication, Android app setup, wireless commands, and final robot driving. |
 
 ## Course Snapshot
 
