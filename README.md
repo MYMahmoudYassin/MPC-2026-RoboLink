@@ -45,13 +45,13 @@ By the end of the course, students should be able to:
 ## Software
 
 - Arduino IDE
-- Arduino AVR board support for Arduino Nano
+- WaveForms from Digilent
 - Android phone for the RoboLink smartphone control app on Day 5
-- PDF reader
 
 ## Main Hardware
 
 - Arduino Nano ATmega168
+- Analog Discovery 2 from Digilent
 - Breadboard and jumper wires
 - LEDs and resistors
 - Push button
