@@ -1,10 +1,9 @@
 <div align="center">
   <img width="211" height="46" alt="Mini Course Program logo" src="https://github.com/user-attachments/assets/7af10aa5-d64e-46dd-9b3f-78521599634c" />
 
-  <h1>Mini Course Program 2026:</h1> 
+  <h1>RoboLink: Build and Drive Your Smartphone-Controlled Robot</h1> 
 
-  <p><strong> RoboLink: Build and Drive Your Smartphone-Controlled Robot</strong></p>
-  <p>Carleton University Mini Course Program</p>
+  <p>Carleton University Mini Course Program 2026</p>
   <p>Instructors: Dr. Mahmoud Sayed and Mahmoud Yassin</p>
 
   <p>
